@@ -30,11 +30,11 @@ Inproﬁlepageuserbasicdetailsandimageisdisplayed.Thereisaratingsystembasedonuse
 # libraries used
 Jcrowe.Bad word ﬁlter. https://github.com/jcrowe206/BadWordFilter
 
-PHP Text Language Detection Library: Detect the language of a given text string. https://www.phpclasses.org/package/ 10090-PHP-Detect-the-language-of-a-given-text-string.html
+PHP Text Language Detection Library: Detect the language of a given text string. https://www.phpclasses.org/package/10090-PHP-Detect-the-language-of-a-given-text-string.html
 
-Samuel Adeshina.PHP Sentiment Analyzer: Determine the type of sentiments in a given text. https://www.phpclasses.org/package/ 9271-PHP-Determine-the-type-of-sentiments-in-a-given-text.html
+Samuel Adeshina.PHP Sentiment Analyzer: Determine the type of sentiments in a given text. https://www.phpclasses.org/package/9271-PHP-Determine-the-type-of-sentiments-in-a-given-text.html
 
-Arkadiusz Kondas.PHP-ML - Machine Learning library for PHP. https://php-ml. readthedocs.io/en/v0.1.0/
+Arkadiusz Kondas.PHP-ML - Machine Learning library for PHP. https://php-ml.readthedocs.io/en/v0.1.0/
 
 
 ## Setup
