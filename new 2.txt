@@ -1,0 +1,35 @@
+var xhr = new XMLHttpRequest();
+xhr.open("GET","script.php",true);
+xhr.send();
+//////////////////////////////////////
+var text = xhr.responseText;
+var xml = xhr.responseXML;
+var target = documment.getElementbyId("main");
+target.innerHTML = text;
+////parsse the response///////
+var person = {
+		'first' : 'bob',
+		'last': 'smith',
+};
+var response = "{
+		'first' : 'bob',
+		'last': 'smith',
+}";
+var person = JSON.parse(response);
+//////ready state//////
+var xhr = new XMLHttpRequest();
+xhr.open("GET","script.php",true);
+
+xhr.onreadystatechange = function() {
+	if(xhr.readystatechange == 4 && xhr.status == 200) {
+		var target = documment.getElementbyId("main");
+		target.innerHTML =xhr.responseText;
+		}
+	}
+xhr.send();
+************************************************************************88888888888
+//javascript
+xhr.setRequestHeader('X-Requested-With','XMLHttpRequest');
+
+
+		

@@ -1,0 +1,34 @@
+{
+  "name": "patrick-schur/language-detection",
+  "type": "library",
+  "description": "Detect the language from a given text.",
+  "keywords": ["language","detection"],
+  "homepage": "https://github.com/patrick-schur/language_detection",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Patrick Simon Schur",
+      "email": "patrick_schur@outlook.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "LanguageDetector\\": "src/LanguageDetector"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LanguageDetector\\Tests\\": "test/"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"autoload":
+	{
+		"classmap": ["src\/SentimentAnalyzer.class.php", "src\/SentimentAnalyzer.php"]
+	}
+}

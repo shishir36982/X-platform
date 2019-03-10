@@ -1,0 +1,34 @@
+html,
+body {
+  min-height: 100%;
+}
+body {
+  background: #92c7d6;
+  background-image: -webkit-radial-gradient(
+    top,
+    circle cover,
+    #97d0e1,
+    #427388 80%
+  );
+  background-image: -moz-radial-gradient(
+    top,
+    circle cover,
+    #97d0e1,
+    #427388 80%
+  );
+  background-image: -o-radial-gradient(top, circle cover, #97d0e1, #427388 80%);
+  background-image: radial-gradient(top, circle cover, #97d0e1, #427388 80%);
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
