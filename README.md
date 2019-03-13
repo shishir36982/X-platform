@@ -4,13 +4,37 @@ This project aims at providing a platform to user where they can discuss about t
 Therecommendationarebasedonuserpastactivitywhichhelpoursystemtotrainandsuggest threads to users according to interest of user.Users can able to see number of people joined in their community and can compare it with the predicted value of user joined by our system. SOS community is provided by default by our site in which people can discuss about details of any Disaster or problem in their area.In this SOS community there is sos button,when user press the Button it send the location and details of user to all the people present in SOS community. Live chat system is provided to users in communities where they can chat with people which are currently online Proﬁle of user contain its basic details and rating based on the his contribution on site.From this rating top users are dispalyed in our site.
 
 # screenshots
+Basic feed for user according to his/her tastes
 ![Basic feed for user according to his/her tastes](https://github.com/shishir36982/X-platform/blob/master/imgi/report%20screenshots/feed1.PNG)
 
-![Optional Text](../X-platform/screen/)
+Suggestions based on traffic and user tastes
+![Optional Text](https://github.com/shishir36982/X-platform/blob/master/imgi/report%20screenshots/feed2.PNG)
 
-![Optional Text](../X-platform/screen/)
 
-![Optional Text](../X-platform/screen/)
+add your communities and subcommunities with functionalities such as alias community and custom forms in sub comm as well
+![Optional Text](https://github.com/shishir36982/X-platform/blob/master/imgi/addcomm.PNG)
+
+
+Basic functionalities in any comunity page with chat forum and many others
+![Optional Text](https://github.com/shishir36982/X-platform/blob/master/imgi/communities.PNG)
+
+
+language detection of 75 languages/sentiment analysis/abuse filter/sectioned comments
+![Optional Text](https://github.com/shishir36982/X-platform/blob/master/imgi/report%20screenshots/discuss%20lang%20detection%20sentimental%20analysis.PNG)
+
+add/create/follow threads
+![Optional Text](https://github.com/shishir36982/X-platform/blob/master/imgi/report%20screenshots/thread2.PNG)
+
+default SOS community with sos buttons on every page
+![Optional Text](https://github.com/shishir36982/X-platform/blob/master/imgi/report%20screenshots/sos1.PNG)
+
+profile with ML prediv=ctions of various parameters
+![Optional Text](https://github.com/shishir36982/X-platform/blob/master/imgi/profile.PNG)
+
+
+
+
+
 
 
 
@@ -34,9 +58,9 @@ Insoscommunitythereisbuttonforsoswhichiswhenusedsendlocationandpersonaldetails t
 ## Addthread
 Inside communities user can add their opinions and views using threads.They can also follow or unfollow it.The views are updated in database using community id and thread id so we can display it in the community in which it is created.
 ## Recommendationsystem
-We are using naive bayes algorithm in thread to follow and thread to follow today recommendation.It is using user id and threads which are user following are parameters and also checking tags of user and threads.And on the basis of which it generate a similiar threads of interest of user.In the trending communities we are using svm algorithm taking number of people joined and reply in the community as a parameter to classify top communities.
+We are using naive bayes algorithm in "thread to follow" and "thread to follow today" recommendation.It is using user id and threads which are user following are parameters and also checking tags of user and threads.And on the basis of which it generate a similiar threads of interest of user.In the trending communities we are using svm algorithm taking number of people joined and reply in the community as a parameter to classify top communities.
 ## Proﬁle
-Inproﬁlepageuserbasicdetailsandimageisdisplayed.Thereisaratingsystembasedonuser contributioninoursite.Basedonthisratingtopusersaredisplayedinoursite. Expectedratingis predict using SVR algorithm taking parameters of replies and creation of communities of other users.
+In proﬁle page user basic details and image is displayed.There is a rating system based on user contribution in our site.Based on this rating top users are displayed in our site. Expected rating is predict using SVR algorithm taking parameters of replies and creation of communities of other users.
 
 # libraries used
 Jcrowe.Bad word ﬁlter. https://github.com/jcrowe206/BadWordFilter
