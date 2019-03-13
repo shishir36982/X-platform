@@ -1,5 +1,6 @@
-# X-Platform
-## Overview
+# X-Platform 
+https://squirarchical-pyram.000webhostapp.com/myproject/   (Sample)
+## Overview 
 This project aims at providing a platform to user where they can discuss about the numerous topics they wish to discuss about.They can create their own communities of a certain topic and people can join this community and also, can create sub communities in it if they are interested in it.Users writing threads,comments are ﬁltered through our abusive ﬁlters .Our system provide user that in what language the thread or comment is written. Our system also provides dynamic search which helps to ﬁnd communities and other users more easily. Top threads are recommended to user.
 Therecommendationarebasedonuserpastactivitywhichhelpoursystemtotrainandsuggest threads to users according to interest of user.Users can able to see number of people joined in their community and can compare it with the predicted value of user joined by our system. SOS community is provided by default by our site in which people can discuss about details of any Disaster or problem in their area.In this SOS community there is sos button,when user press the Button it send the location and details of user to all the people present in SOS community. Live chat system is provided to users in communities where they can chat with people which are currently online Proﬁle of user contain its basic details and rating based on the his contribution on site.From this rating top users are dispalyed in our site.
 
